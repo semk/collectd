@@ -60,11 +60,23 @@ confflags = --host=$(DEB_HOST_GNU_TYPE) \
 			--enable-rrdcached \
 			-enable-rrdtool \
 			--with-librrd=/usr/lib \
-			--disable-tokyotyrant \
-			--disable-write_redis \
-			--disable-redis \
-			--disable-varnish \
-			--enable-all-plugins
+			--enable-cpu \
+			--enable-df \
+			--enable-disk \
+			--enable-email \
+			--enable-exec \
+			--enable-load \
+			--enable-memory \
+			--enable-network \
+			--enable-notify_email \
+			--enable-ping \
+			--enable-processes \
+			--enable-python \
+			--enable-syslog \
+			--enable-uptime \
+			--enable-users \
+			--enable-write_http \
+			--disable-all-plugins
 
 # These plugins do not provide any functionality under Linux.
 confflags += --disable-apple_sensors --disable-tape
