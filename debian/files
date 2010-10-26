@@ -1,0 +1,7 @@
+collectd-core_4.10.1-2_i386.deb utils optional
+collectd_4.10.1-2_i386.deb utils optional
+collectd-utils_4.10.1-2_i386.deb utils optional
+collectd-dbg_4.10.1-2_i386.deb debug extra
+libcollectdclient-dev_4.10.1-2_i386.deb libdevel optional
+libcollectdclient0_4.10.1-2_i386.deb libs optional
+collectd-dev_4.10.1-2_all.deb utils optional
