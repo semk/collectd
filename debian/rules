@@ -58,7 +58,7 @@ confflags = --host=$(DEB_HOST_GNU_TYPE) \
 			--without-included-ltdl \
 			--disable-static \
 			--enable-rrdcached \
-			-enable-rrdtool \
+			--enable-rrdtool \
 			--with-librrd=/usr/lib \
 			--enable-cpu \
 			--enable-df \
@@ -68,6 +68,7 @@ confflags = --host=$(DEB_HOST_GNU_TYPE) \
 			--enable-load \
 			--enable-memory \
 			--enable-network \
+			--enable-interface \
 			--enable-notify_email \
 			--enable-ping \
 			--enable-processes \
