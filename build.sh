@@ -57,3 +57,6 @@ autoheader \
 && $libtoolize --ltdl --copy --force \
 && automake --add-missing --copy \
 && autoconf
+
+# build debian packages
+dpkg-buildpackage -i -I -rfakeroot

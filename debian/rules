@@ -61,7 +61,6 @@ confflags = --host=$(DEB_HOST_GNU_TYPE) \
 			--enable-rrdtool \
 			--with-librrd=/usr/lib \
 			--enable-cpu \
-			--enable-df \
 			--enable-disk \
 			--enable-email \
 			--enable-exec \
@@ -76,6 +75,7 @@ confflags = --host=$(DEB_HOST_GNU_TYPE) \
 			--enable-syslog \
 			--enable-uptime \
 			--enable-users \
+			--enable-swap \
 			--enable-write_http \
 			--disable-all-plugins
 
